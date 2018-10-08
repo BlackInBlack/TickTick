@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TickTick</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_showdetails">Показать детали</string>
+    <string name="action_hide">Скрыть выполненные</string>
+    <string name="action_sort">Сортировка</string>
+    <string name="action_send">Отправить</string>
+    <string name="action_tasks">Задачи</string>
+    <string name="action_calendar">Календарь</string>
+    <string name="action_settings">Настройки</string>
+    <string name="activity_main1">Входящие</string>
+    <string name="activity_main2">Сегодня</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="settings_fragment">Hello Settings fragment</string>
+    <string name="calendar_fragment">Hello Calendar fragment</string>
+    <string name="fio">Анискин Андрей</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="calendar_1">Скрыть детали</string>
+    <string name="calendar_2">Скрыть выполненные</string>
+    <string name="calendar_3">Скрыть подзадачи</string>
+    <string name="calendar_4">Показать будущие повторы</string>
+    <string name="calendar_5">Фильтр</string>
+    <string name="calendar_6">Подписаться на календарь</string>
+    <string name="calendar_7">Arrange Task</string>
+    <string name="calendar_8">Отправить</string>
+</resources>

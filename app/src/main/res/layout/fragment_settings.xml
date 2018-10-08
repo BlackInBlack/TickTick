@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="62dp"
+                            android:layout_height="53dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignTop="@+id/textView9"
+                            android:src="@mipmap/ic_launcher_round" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="220dp"
+                            android:layout_height="53dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentTop="true"
+                            android:fontFamily="serif-monospace"
+                            android:gravity="center"
+                            android:paddingLeft="10px"
+                            android:text="Анискин Андрей"
+                            android:textAlignment="textStart"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@color/colorLine" />
+
+                        <View
+                            android:id="@+id/view9"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@color/colorLine" />
+
+                        <View
+                            android:id="@+id/view8"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@color/colorLine" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="62dp"
+                            android:layout_height="53dp"
+                            android:padding="12dp"
+                            android:src="@mipmap/baseline_euro_symbol_black_36dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="131dp"
+                            android:layout_height="53dp"
+                            android:fontFamily="serif-monospace"
+                            android:gravity="center"
+                            android:paddingLeft="10px"
+                            android:text="Перейти на Pro"
+                            android:textAlignment="textStart"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <View
+                            android:id="@+id/view3"
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@color/colorLine" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@color/colorLine" />
+
+                        <View
+                            android:id="@+id/view7"
+                            android:layout_width="99dp"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@color/colorLine" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="3dp"
+                            android:text="Приложение"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+                    </TableRow>
+
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="55dp"
+                            android:layout_height="37dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignTop="@+id/textView9"
+
+                            android:src="@mipmap/baseline_opacity_black_36dp"
+                            android:theme="@style/iconStyle"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="331dp"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentTop="true"
+
+                            android:fontFamily="serif-monospace"
+                            android:gravity="center"
+
+                            android:text="Темы"
+                            android:textAlignment="textStart"
+                            android:textSize="16sp"
+                            android:theme="@style/textStyle"
+                            app:layout_constraintStart_toEndOf="@+id/imageView8"
+                            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@color/colorLine" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp">
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="38dp"
+                            android:layout_height="37dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignTop="@+id/textView9"
+
+                            android:src="@mipmap/baseline_settings_black_36dp"
+                            android:theme="@style/iconStyle"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="79dp"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentTop="true"
+
+                            android:fontFamily="serif-monospace"
+                            android:gravity="center"
+
+                            android:text="Общие"
+                            android:textAlignment="textStart"
+                            android:textSize="16sp"
+                            android:theme="@style/textStyle"
+                            app:layout_constraintStart_toEndOf="@+id/imageView8"
+                            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@color/colorLine" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="38dp"
+                            android:layout_height="37dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignTop="@+id/textView9"
+
+                            android:src="@mipmap/baseline_alarm_black_36dp"
+                            android:theme="@style/iconStyle"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="79dp"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentTop="true"
+
+                            android:fontFamily="serif-monospace"
+                            android:gravity="center"
+
+                            android:text="Уведомления"
+                            android:textAlignment="textStart"
+                            android:textSize="16sp"
+                            android:theme="@style/textStyle"
+                            app:layout_constraintStart_toEndOf="@+id/imageView8"
+                            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@color/colorLine" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="38dp"
+                            android:layout_height="37dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignTop="@+id/textView9"
+
+                            android:src="@mipmap/baseline_security_black_36dp"
+                            android:theme="@style/iconStyle"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="79dp"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentTop="true"
+
+                            android:fontFamily="serif-monospace"
+                            android:gravity="center"
+
+                            android:text="Безопасность и данные"
+                            android:textAlignment="textStart"
+                            android:textSize="16sp"
+                            android:theme="@style/textStyle"
+                            app:layout_constraintStart_toEndOf="@+id/imageView8"
+                            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@color/colorLine" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="38dp"
+                            android:layout_height="37dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignTop="@+id/textView9"
+
+                            android:src="@mipmap/round_dns_black_36dp"
+                            android:theme="@style/iconStyle"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="79dp"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentTop="true"
+
+                            android:fontFamily="serif-monospace"
+                            android:gravity="center"
+
+                            android:text="Расширенные"
+                            android:textAlignment="textStart"
+                            android:textSize="16sp"
+                            android:theme="@style/textStyle"
+                            app:layout_constraintStart_toEndOf="@+id/imageView8"
+                            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@color/colorLine" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <View
+                            android:id="@+id/view3"
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@color/colorLine" />
+
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/colorLine" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

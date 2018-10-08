@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@mipmap/baseline_calendar_today_white_36dp"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:icon="@mipmap/baseline_line_weight_white_36dp"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item android:title="@string/calendar_1" />
+    <item android:title="@string/calendar_2" />
+    <item android:title="@string/calendar_3" />
+    <item android:title="@string/calendar_4" />
+    <item android:title="@string/calendar_5" />
+    <item android:title="@string/calendar_6" />
+    <item android:title="@string/calendar_7" />
+    <item android:title="@string/calendar_8" />
+
+</menu>
